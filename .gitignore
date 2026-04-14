@@ -1,0 +1,18 @@
+# Ignore everything in the vault by default.
+/*
+
+# Keep the ignore rules themselves.
+!/.gitignore
+
+# Keep only the directories that should be versioned.
+!/谟/
+!/谟/**
+!/技术文章/
+!/技术文章/**
+!/我的大叔/
+!/我的大叔/**
+!/Circle研究/
+!/Circle研究/**
+
+# Ignore OS metadata even inside allowed directories.
+**/.DS_Store
